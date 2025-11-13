@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff3e0;
+            color: #333;
+        }
+
+        header,
+        footer {
+            background-color: #e65100;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        h2 {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        /* Different colors for headings */
+        h2:nth-of-type(1) {
+            color: #d84315;
+        }
+
+        h2:nth-of-type(2) {
+            color: #4e342e;
+        }
+
+        h2:nth-of-type(3) {
+            color: #1e88e5;
+        }
+
+        h2:nth-of-type(4) {
+            color: #6a1b9a;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .image-row img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .image-row img:hover {
+            transform: scale(1.05);
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px;
+        }
+
+        .product-grid div {
+            text-align: center;
+        }
+
+        .product-grid img {
+            width: 200px;
+            border-radius: 8px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #d84315;
+        }
+
+        footer .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .main-paragraph {
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            font-weight: bold;
+        }
+
+        .logo {
+            width: 80px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Swiggy logo -->
+
+        <h1>Delicious Food Delivery</h1>
+    </header>
+
+    <h2>What's on your mind?</h2>
+    <div class="image-row">
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png"
+            alt="pizza" />
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png"
+            alt="biryani" />
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png"
+            alt="burger" />
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png"
+            alt="paratha" />
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png"
+            alt="cakes" />
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png"
+            alt="noodles" />
+    </div>
+
+    <p class="main-paragraph">🚀 Savor the goodness, delivered fast! 🚀 Craving something delicious? Let us bring the
+        joy of fresh, hot, and flavorful meals straight to your doorstep! Whether it's a comforting classic or an exotic
+        delight, every bite is crafted with care, using the finest ingredients. No more waiting—our lightning-fast
+        delivery ensures your food arrives fresh and steaming, ready to satisfy your taste buds. 🥗🍕🍔 Why cook when
+        you can enjoy restaurant-quality meals in minutes? Order now and let the feast come to you!</p>
+
+    <h2>Cakes</h2>
+    <div class="product-grid">
+        <div>
+            <img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/5/15/ad7eb56d-43aa-46c4-8ac5-3ece956de283_427127.jpg" />
+            <p class="price">$150</p>
+        </div>
+        <div>
+            <img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/634a8665-f5f9-4ffb-bf26-86753729916d_208885.JPG" />
+            <p class="price">$500</p>
+        </div>
+        <div>
+            <img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/kx4vn8mnzvlu98wivdfg" />
+            <p class="price">$499</p>
+        </div>
+        <div>
+            <img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/19/441392c8-9921-46d7-b1ca-333f925a6531_958737.jpg" />
+            <p class="price">$299</p>
+        </div>
+    </div>
+
+    <h2>Pizzas</h2>
+    <div class="product-grid">
+        <div>
+            <img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/4/22/182ab056-ef4a-4453-acce-2688918932c4_402cfd0e-3ff5-4f8d-abc9-1e7e6ec7d9b3.PNG_compressed" />
+            <p class="price">$200</p>
+        </div>
+        <div>
+            <img
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/34306c56-5f5f-4a5d-a3a4-9700f6b6b736_93851.jpg" />
+            <p class="price">$350</p>
+        </div>
+        <div>
+            <img
+                src=https://th.bing.com/th/id/OIP.H8fX5eBqf9HU3EROcTUbzQHaEo?w=315&h=196&c=7&r=0&o=5&cb=iwc2&dpr=1.3&pid=1.7 />
+            <p class="price">$300</p>
+        </div>
+        <div>
+            <img
+                src=https://th.bing.com/th/id/OIP.MxjudFSo6gujXsoaJun4mQHaE7?w=254&h=180&c=7&r=0&o=5&cb=iwc2&dpr=1.3&pid=1.7 />
+            <p class="price">$400</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Swiggy. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/login" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
